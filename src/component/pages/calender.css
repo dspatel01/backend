@@ -1,0 +1,4 @@
+.calender-cantainer{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,104 @@
+.top-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 55px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    text-shadow: 2px 2px 7px rgba(0, 0, 0, 0.678);
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.37);
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(135deg,rgb(187, 175, 9),orange);
+}
+.login-container{
+    background-image:url('../../image/desktop-wallpaper-dharmikvidhi-orange-orange-background.jpg');
+    height: 90vh;
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+.login-container .login-details{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+    width: 330px;
+    height: 410px;
+    box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.466) ;
+    border: 1px solid transparent;
+    backdrop-filter: blur(0.3rem);
+}
+ .login-details .image{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 110px;
+    background-color: rgb(194, 194, 189);
+    border-radius: 50%;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+ .login-details .image img{
+   
+    width: 90px;
+    height: 90px;
+     border-radius: 50%;
+}
+form{
+    position: absolute;
+    top:170px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+input[type="text"]{
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+button{
+    cursor: pointer;
+    margin-top: 13px;
+    height: 35px;
+    border: none;
+    border-radius:9px;
+    background-color: rgb(31, 15, 6);
+    color: #fff;
+    font-size: 1.2rem;
+}
+button:hover{
+   
+    background-color: rgb(236, 221, 3);
+    color: black;
+    
+}
+.forget-password{
+    margin-top: 7px;
+    text-align: center;
+
+}
+.forget-password a{
+    margin-top: 7px;
+    text-align: center;
+    color: #fff;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+.forget-password a:hover{
+    color: blue;
+    text-decoration: underline;
+}
